@@ -12,12 +12,10 @@ import dotenv from 'dotenv'
 import path from 'path'
 import { fileURLToPath } from 'url'
 
-if(process.env.NODE_ENV!=='PRODUCTION '){
+if(process.env.NODE_ENV!=='PRODUCTION'){
   
   dotenv.config({path:'config/config.env'})
 }
-  dotenv.config({path:'config/config.env'})
-  console.log(process.env.NODE_ENV)
 
 
 

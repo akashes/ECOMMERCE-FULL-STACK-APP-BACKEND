@@ -5,7 +5,6 @@ if(process.env.NODE_ENV!=='PRODUCTION'){
 
     dotenv.config({path:'config/config.env'}) //path based on the root directory which started the app
 }
-    dotenv.config({path:'config/config.env'}) //path based on the root directory which started the app
 
     
 import {v2 as cloudinary} from 'cloudinary'

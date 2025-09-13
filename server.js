@@ -39,7 +39,7 @@ export const instance = new Razorpay({
 
 const server =app.listen(PORT,()=>{
 
-    console.log(`server is running on port ${PORT}`)
+    console.log(`server is running on port ${PORT} and serves ${process.env.FRONTEND_URL}`)
 })   
 
 process.on('unhandledRejection',err=>{

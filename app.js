@@ -30,6 +30,7 @@ const app = express()
 //middlewares
 app.use(cors(
     {
+        // origin:'https://gregarious-sunburst-e49632.netlify.app',
         origin:process.env.FRONTEND_URL,
           credentials: true,
 

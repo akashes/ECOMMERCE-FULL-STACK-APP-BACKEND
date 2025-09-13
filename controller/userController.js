@@ -109,6 +109,7 @@ export const requestPasswordReset=handleAsyncError(async(req,res,next)=>{
         
     }
 const resetPasswordURL = `${process.env.FRONTEND_URL}/reset/${resetToken}`;
+console.log(resetPasswordURL)
     const message = `
       <p>Use the following link to reset your password:</p>
       <a href="${resetPasswordURL}" target="_blank">${resetPasswordURL}</a>
